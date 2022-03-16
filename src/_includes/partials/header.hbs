@@ -1,17 +1,17 @@
-<header class="header">
-    <ul>
-        <li> {{title}}</li>
-        <li>
-            <a href="/">
-                Home
-            </a>
-        </li>
-        {{#each collections.pages}}
-            <li>
-                <a href="{{ this.url }}">
-                    {{ this.data.sub-title }}
+<header class="container-fluid justify-content-start bg-dark">
+        <ul class="m-auto p-1 d-flex text-light list-unstyled justify-content-between">
+            <li class="text-decoration-none">{{title}}</li>
+            <li class="text-decoration-none">
+                <a href="/" class="text-decoration-none link-light">
+                    Home
                 </a>
             </li>
-        {{/each}}
-    </ul>
+            {{#each collections.pages}}
+                <li class="text-decoration-none">
+                    <a href="{{ this.url }}" class="text-decoration-none link-light">
+                        {{ this.data.sub-title }}
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
 </header>
