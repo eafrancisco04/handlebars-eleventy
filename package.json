@@ -16,5 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
