@@ -13,7 +13,7 @@
     "jamstack"
   ],
   "author": "Elizabeth Ann Francisco",
-  "license": "MIR",
+  "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
   }
