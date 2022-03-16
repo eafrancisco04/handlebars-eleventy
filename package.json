@@ -1,0 +1,20 @@
+{
+  "name": "handlebars-eleventy",
+  "version": "1.0.0",
+  "description": "Elevently website using Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [
+    "eleventy",
+    "handlebars",
+    "jamstack"
+  ],
+  "author": "Elizabeth Ann Francisco",
+  "license": "MIR",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

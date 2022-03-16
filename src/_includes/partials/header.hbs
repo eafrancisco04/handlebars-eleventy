@@ -1,0 +1,17 @@
+<header class="header">
+    <ul>
+        <li> {{title}}</li>
+        <li>
+            <a href="/">
+                Home
+            </a>
+        </li>
+        {{#each collections.pages}}
+            <li>
+                <a href="{{this.url}}">
+                    {{this.data.sub-title}}
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</header>
